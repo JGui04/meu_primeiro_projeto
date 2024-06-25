@@ -2,7 +2,7 @@
 Programa: Jogo de adivinhação
 Autor: J. Guilherme
 licença: GNU
-Data: 2024/06/14
+Data: 2024/06/24
 Versão: v1.1.1
 Descrição: Este programa terá como proposta fazer com que o usuário acerte qual o número que foi sorteado pelo programa.
 """
