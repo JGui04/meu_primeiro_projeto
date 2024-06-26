@@ -73,12 +73,12 @@ while opcao == 1:
 
             # Caso o número seja menor que o sorteado aparacerá na tela e também quantas chances o usuário ainda tem.
             if (escolha < numero):
-                print(f"\nO número é {escolha}, é menor que o sorteado !!!")
+                print(f"\nO número sorteado é maior que o número {escolha} !!!")
                 print(f"Tentativas {chances} de {nivel} !!!\n")
 
             # Caso o número seja maior que o sorteado aparacerá na tela e também quantas chances o usuário ainda tem.
             elif (escolha > numero):
-                print(f"\nO número {escolha}, é maior que o sorteado !!!")
+                print(f"\nO número sorteado é menor que o número {escolha} !!!")
                 print(f"Tentativas {chances} de {nivel} !!!\n")
 
             # Se  usuário acetar o número sorteado aparecerá na tela e que ele acertou.
@@ -96,7 +96,7 @@ while opcao == 1:
 
         # Caso o usuário atinja o limite das chances e elas cheguem a ZERO, imprimirá na tela que ele não acertou.
         if(chances == 0):
-            print(f"\nVocê Não acertou !!!\n")
+            print(f"\nVocê Não acertou !!!\nO número sorteado era o {numero}\n")
 
             # Irá para o programa após isso.
             break
